@@ -98,8 +98,8 @@ img {
 
 .container {
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -131,9 +131,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ECECEC;
-  margin-bottom: 94px;
 }
+
 
 /* Ставим на линию Лого и навигацию */
 .nav-list-logo {
@@ -200,28 +199,10 @@ img {
 .heroy-section {
   height: 600px;
   padding-top: 200px;
-  padding-right: 252px;
   padding-bottom: 200px;
-  padding-left: 252px;
+  margin: auto;
   background: var(--blek-heroy);
 }
-
-/* .button-heroy {  
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  /* margin: 0, 0; */
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87px;
-  letter-spacing: 0.06em;
-  color: var(--white);
-  text-decoration: none;
-  background: var(--accent-cl);
-} */
 
 .visually-hidden {
   position: absolute !important;
@@ -253,6 +234,8 @@ img {
 
 .cection-title {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
   text-align: center;
   color: var(--blek);
   margin-bottom: 50px;
@@ -344,7 +327,6 @@ margin-bottom: 0px;
 
 .container-komanda {
   background-color: #F5F4FA;
-  height: 648px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -353,10 +335,6 @@ margin-bottom: 0px;
   font-style: normal;
   color: var(--white);
 }
-
-/* .adress-list {
-  display: block;
-} */
 
 .adress-footer {
   text-decoration: none;
@@ -373,6 +351,8 @@ margin-bottom: 0px;
 }
 
 .button {
+  display: block;
+  margin: auto;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -417,8 +397,14 @@ margin-bottom: 0px;
   color: var(--white);
 }
 
-.menu-portfolio-margion-button {
-  margin-bottom: 50px;
+.portfolio-padding {
+  padding-top: 56px;
+  padding-bottom: 94px;
+}
+
+.menu-portfolio-padding {
+  border-top: 1px solid #ECECEC;
+  padding-top: 100px;
 }
 
 .list-project {
@@ -466,8 +452,4 @@ margin-bottom: 0px;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
-}
-
-.portfolio-margion-botton {
-  margin-bottom: 94px;
 }
